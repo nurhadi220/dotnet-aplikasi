@@ -54,7 +54,7 @@ untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT
 
    untuk melihat IP yang anda miliki anda cukup membuka CMD (Command Prompt).
    
-   Lalu ketikan. 
+   Lalu ketikan pada CMD sebagai berikut. 
    ```sh
 ipconfig 
    ```
