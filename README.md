@@ -99,11 +99,3 @@ untuk memperbaiki/melihat apakah ada code yang error dan warning maka anda dapat
 pada terminal. Fungsinya untuk menjalankan program (API)
 
 ## 5. Dengan begini API berjalan pada jaringan yang sama / localhost
-
-## 6. Apabila terjadi ERROR anda bisa melakukan langkah-langkah berikut
-
-### pastikan lagi apakah anda sudah memiliki dotnet (. NET)
-Buka terminal dan jalankan perintah berikut.
-```sh
-dotnet --list-sdks
-```
