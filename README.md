@@ -1,2 +1,2 @@
-# dotnet-aplikasi
-dotnet untuk aplikasi (API)
+# dotnet-Aplikasi-Mobile
+# hal Pertama yang anda lakukan sebelum menggunakan API ini 
