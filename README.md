@@ -2,7 +2,7 @@
 
 Repository ini merupakan backend API yang menggunakan Microsoft SQL Server.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+_arofan_
 
 # Langkah-langkah Penggunaan
 
