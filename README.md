@@ -83,12 +83,17 @@ untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT
   > Note: kenapa harus menggunakan IP ? . Karena saat ini kita menggunakan server lokal, jadi anda harus menggunakan 1 jaringan yang sama. pada 1 wifi yang sama contohnya 
 
 ## 4. Setelah anda melakukan itu, anda dapat melakukan perintah pada terminal
+untuk memperbaiki/melihat apakah ada code yang error dan warning maka anda dapat mengetikan.
    ```sh 
    dotnet build
    ``` 
-   untuk memperbaiki/melihat apakah ada code yang error dan warning.
-   lalu setelah semua berjalan tanpa error maka anda dapat melanjutkan perintah dengan mengetikan
-   ```sh dotnet run ``` pada terminal. Fungsinya untuk menjalankan program (API)
+   
+   lalu setelah semua berjalan tanpa error maka anda dapat melanjutkan perintah dengan mengetikan.
+   
+   ```sh 
+   dotnet run
+```
+pada terminal. Fungsinya untuk menjalankan program (API)
 
 ## 5. Dengan begini API berjalan pada jaringan yang sama / localhost
 
