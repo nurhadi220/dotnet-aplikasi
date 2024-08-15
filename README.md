@@ -4,9 +4,9 @@ Repository ini merupakan backend API yang menggunakan Microsoft SQL Server.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Langkah-langkah Penggunaan
+# Langkah-langkah Penggunaan
 
-### 1. Membuat Database
+## 1. Membuat Database
 
 Buat database dengan tabel `TransferOrder` menggunakan query SQL berikut (untuk Microsoft SQL Server):
 
@@ -29,7 +29,7 @@ CREATE TABLE TransferOrder (
 ```
 
 pada kasus ini saya menggunakan database dari Microsoft (MICROSOFT SQL) jadi untuk anda yang menggunakan MYSQL atau yang lain anda dapat menyesuaikan.
-untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT
+untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT 
 
 
 ## 2. Buka pada folder ` API ` lalu edit file ` appsettings.json `.
@@ -82,8 +82,20 @@ untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT
 
   > Note: kenapa harus menggunakan IP ? . Karena saat ini kita menggunakan server lokal, jadi anda harus menggunakan 1 jaringan yang sama. pada 1 wifi yang sama contohnya 
 
-## 4. setelah anda melakukan itu, anda dapat melakukan perintah pada terminal
-   " dotnet build " lalu setelah semua berjalan tanpa error maka anda dapat melanjutkan perintah dengan mengetikan
-   " dotnet run " pada terminal.
+## 4. Setelah anda melakukan itu, anda dapat melakukan perintah pada terminal
+   ```sh 
+   dotnet build
+   ``` 
+   untuk memperbaiki/melihat apakah ada code yang error dan warning.
+   lalu setelah semua berjalan tanpa error maka anda dapat melanjutkan perintah dengan mengetikan
+   ```sh dotnet run ``` pada terminal. Fungsinya untuk menjalankan program (API)
 
-## 5. dengan begini API berjalan pada jaringan yang sama / localhost
+## 5. Dengan begini API berjalan pada jaringan yang sama / localhost
+
+## 6. Apabila terjadi ERROR anda bisa melakukan langkah-langkah berikut
+
+### pastikan lagi apakah anda sudah memiliki dotnet (. NET)
+Buka terminal dan jalankan perintah berikut.
+```sh
+dotnet --list-sdks
+```
