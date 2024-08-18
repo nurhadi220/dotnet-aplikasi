@@ -30,8 +30,17 @@ CREATE TABLE TransferOrder (
 
 pada kasus ini saya menggunakan database dari Microsoft (MICROSOFT SQL) jadi untuk anda yang menggunakan MYSQL atau yang lain anda dapat menyesuaikan.
 untuk id saya menggunakan " UUID " sebagai pengganti AUTO INCREMENT 
-
-
+<br>
+<br>
+### Disini saya akan menambahkan fungsi (opsional)
+karena pada aplikasi ini fungsinya untuk mencari data berdasarkan field yang akan dipilih, maka saya akan memberikan anda rekomendasi agar performa pada database anda dapat melakukannya cepat dan efisien.
+bayangkan jika anda memiliki banyak barang yang ingin di inputkan, maka pada database akan mencari satu per satu data berdasarkan filed yang memiliki inputan yang sama.
+untuk itu anda juga dapat menambahkan fungsi `index` pada database dengan menambahkan.
+```sh
+CREATE INDEX idx_transfer_fields ON TransferOrder (warehouse, toNumber, toItem);
+```
+dengan begini proses pencarian barang berdasarkan 3 field itu dapat di kelola dengan mudah.
+<br><br>
 ## 2. Buka pada folder ` API ` lalu edit file ` appsettings.json `.
    
    pada bagian ini anda dapat menyesuaikan dengan koneksi pada database yang anda miliki.
